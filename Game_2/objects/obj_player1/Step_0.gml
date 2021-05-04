@@ -1,13 +1,42 @@
+if (update == 1){
+	if (sprite == 0){
+		sprite_index = spr_playerAsteriaWalking
+	}
+	if (sprite == 1){
+		sprite_index = spr_playerJetWalking
+	}
+	if (sprite == 2){
+		sprite_index = spr_playerTroyWalking
+	}
+	if (sprite == 3){
+		sprite_index = spr_playerZaneWalking
+	}
+	update = 0
+}
+if (keyboard_check_pressed(ord("Q"))){
+	sprite -=1
+	if sprite == -1{
+		sprite = 3
+	}
+	update = 1
+}
+if (keyboard_check_pressed(ord("E"))){
+	sprite +=1
+	if sprite == 3{
+		sprite = 0
+	}
+	update = 1
+}
 if ((!keyboard_check(ord("D"))) and (!keyboard_check(ord("A")))){
-	sprite_index = spr_Player1_Idle
+	//sprite_index = spr_Player1_Idle
 	hspeed = 0
 }
 if keyboard_check(ord("D")){
-	sprite_index = spr_Player1_Run
+	//sprite_index = spr_Player1_Run
 	image_xscale = 1
 	hspeed = 3
 }else if keyboard_check(ord("A")){
-	sprite_index = spr_Player1_Run
+	//sprite_index = spr_Player1_Run
 	image_xscale = -1
 	hspeed = -3
 }

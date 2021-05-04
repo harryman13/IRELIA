@@ -23,10 +23,6 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"parent":{"name":"obj_enemyBullet","path":"objects/obj_enemyBullet/obj_enemyBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"parent":{"name":"obj_enemyBullet","path":"objects/obj_enemyBullet/obj_enemyBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_playerJet","path":"objects/obj_playerJet/obj_playerJet.yy",},"parent":{"name":"obj_enemyBullet","path":"objects/obj_enemyBullet/obj_enemyBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_playerAsteria","path":"objects/obj_playerAsteria/obj_playerAsteria.yy",},"parent":{"name":"obj_enemyBullet","path":"objects/obj_enemyBullet/obj_enemyBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_playerTroy","path":"objects/obj_playerTroy/obj_playerTroy.yy",},"parent":{"name":"obj_enemyBullet","path":"objects/obj_enemyBullet/obj_enemyBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_playerZane","path":"objects/obj_playerZane/obj_playerZane.yy",},"parent":{"name":"obj_enemyBullet","path":"objects/obj_enemyBullet/obj_enemyBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

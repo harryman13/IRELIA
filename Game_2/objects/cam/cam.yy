@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_playerZaneWalking",
-    "path": "sprites/spr_playerZaneWalking/spr_playerZaneWalking.yy",
+    "name": "spr_cam",
+    "path": "sprites/spr_cam/spr_cam.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"cam","path":"objects/cam/cam.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"cam","path":"objects/cam/cam.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_playerZane",
+  "name": "cam",
   "tags": [],
   "resourceType": "GMObject",
 }
