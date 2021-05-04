@@ -2,6 +2,7 @@ gravity_direction = 270
 health = 100
 sprite = 0
 update = 0
+shield = 0
 shoot = true
 ability1 = true
 ability2 = true
