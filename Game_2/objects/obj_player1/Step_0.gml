@@ -40,7 +40,7 @@ if keyboard_check(ord("D")){
 	image_xscale = -1
 	hspeed = -3
 }
-if keyboard_check_pressed(ord("W")) or keyboard_check_pressed(vk_space){
+if keyboard_check_pressed(ord("W")){
 	if(instance_place(x, y+1, obj_floor)){	
 	vspeed = -jump
 	}

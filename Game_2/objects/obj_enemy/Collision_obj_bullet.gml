@@ -1,1 +1,0 @@
-enemy_health = enemy_health - 35
