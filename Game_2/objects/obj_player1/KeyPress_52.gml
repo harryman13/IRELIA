@@ -1,3 +1,3 @@
-if sprite = 4{
+if sprite == 3{
 	gun = 4
 }

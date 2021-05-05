@@ -14,15 +14,21 @@ if (update == 1){
 	update = 0
 }
 if (keyboard_check_pressed(ord("Q"))){
-	sprite -=1
+	sprite -= 1
+	if gun == 4{
+		gun = 1
+	}
 	if sprite == -1{
 		sprite = 3
 	}
 	update = 1
 }
 if (keyboard_check_pressed(ord("E"))){
-	sprite +=1
-	if sprite == 3{
+	sprite += 1
+	if gun == 4{
+		gun = 1
+	}
+	if sprite == 4{
 		sprite = 0
 	}
 	update = 1
