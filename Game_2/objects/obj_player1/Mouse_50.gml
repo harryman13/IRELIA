@@ -1,3 +1,4 @@
+if stage == 11 || stage == 24 || stage == 35{
 if shoot{
 	if ((gun == 3) && (smgAmmo > 0)){
 			temp = instance_create_layer(x, y-24,"Instances" ,obj_smg_bullet)
@@ -7,4 +8,5 @@ if shoot{
 			smgAmmo -= 1
 			alarm[0] = 5
 		}
+}
 }

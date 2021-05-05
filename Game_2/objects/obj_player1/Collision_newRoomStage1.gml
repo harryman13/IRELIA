@@ -1,3 +1,3 @@
-instance_destroy()
+space = true
+hspeed = 0
 stage += 1
-room_goto(StoryRoom)

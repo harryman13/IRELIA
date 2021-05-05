@@ -1,4 +1,6 @@
-if (obj_player1.x - x) > 500{
+if (obj_player1.x - x) > 500 && progress{
+	alarm[0] = 50
+	reset = false
 	camroom+=1
 	trigger = true
 	toggle = false

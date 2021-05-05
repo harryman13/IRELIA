@@ -3,3 +3,4 @@ y = 250
 camroom = 1
 toggle = false
 trigger = true
+reset = true

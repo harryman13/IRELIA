@@ -1,3 +1,4 @@
+if stage == 11 || stage == 24 || stage == 35{
 if (shoot){
 	if gun == 1{
 		temp = instance_create_layer(x, y-24,"Instances" ,obj_pistol_bullet)
@@ -35,4 +36,5 @@ if (shoot){
 		alarm[0] = 40
 	}
 	
+}
 }
