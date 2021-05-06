@@ -4,7 +4,7 @@
     "path": "sprites/spr_cam/spr_cam.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
