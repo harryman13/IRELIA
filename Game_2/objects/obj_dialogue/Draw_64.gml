@@ -164,7 +164,7 @@ if (stage == 28){
 
 if (stage == 29 && newroom){
 	newroom = false
-	//alien room
+	room_goto(Level3)
 	//
 }
 /**Stage Three PreDialog

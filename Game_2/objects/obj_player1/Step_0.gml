@@ -53,8 +53,19 @@ if stage == 11 || stage == 24 || stage == 35{
 			vspeed = -jump
 		}
 	}
+
+	if health <= 0{
+		game = 0
+		room_goto(GameOver)
+		instance_destroy()
+	}
+}
 	if!(position_meeting(x+12, y+vspeed, obj_floor) || position_meeting(x-12, y+vspeed, obj_floor)){
-		gravity = .25
+		if room = Level3{
+			gravity = .15
+		}else{
+			gravity = .25
+		}
 	}
 	
 if(position_meeting(x+12, y+vspeed, obj_floor) || position_meeting(x-12, y+vspeed, obj_floor)){
@@ -65,17 +76,4 @@ if(position_meeting(x+12, y+vspeed, obj_floor) || position_meeting(x-12, y+vspee
 }
 if(position_meeting(x+12+hspeed, y-2, obj_floor) || position_meeting(x-12+hspeed, y-2, obj_floor)){
 	hspeed = 0
-	/*
-	if position_meeting(x+12, y-2, obj_floor){
-		x-=1
-	}else{
-		x+=1
-	}*/
-}
-
-	if health <= 0{
-		game = 0
-		room_goto(GameOver)
-		instance_destroy()
-	}
 }

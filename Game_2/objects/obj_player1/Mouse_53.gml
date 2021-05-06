@@ -15,7 +15,7 @@ if (shoot){
 		temp.direction = point_direction(x, y-24, mouse_x, mouse_y)
 		shoot = false
 		snipeAmmo -= 1
-		alarm[0] = 40
+		alarm[0] = 60
 	}
 	if ((gun == 4) && (shotAmmo > 0)){
 		audio_play_sound(shotgun_shot,1,false)
