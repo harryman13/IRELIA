@@ -40,5 +40,6 @@ if abs(x - cam.x) < 500{
 }
 if enemy_health <= 0{
 	progress = true
+	instance_create_layer(x+500, y, "Instances", obj_SPenemy2)
 	instance_destroy()
 }

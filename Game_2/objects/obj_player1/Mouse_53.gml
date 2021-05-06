@@ -2,12 +2,14 @@ if stage == 11 || stage == 24 || stage == 35{
 if (shoot){
 	if gun == 1{
 		temp = instance_create_layer(x, y-24,"Instances" ,obj_pistol_bullet)
+		audio_play_sound(pistol_shot, 1, false)
 		temp.speed = 7
 		temp.direction = point_direction(x, y-24, mouse_x, mouse_y)
 		shoot = false
 		alarm[0] = 20
 	}
 	if ((gun == 2) && (snipeAmmo > 0)){
+		audio_play_sound(sniper_shot,1,false)
 		temp = instance_create_layer(x, y-24,"Instances" ,obj_sniper_bullet)
 		temp.speed = 12
 		temp.direction = point_direction(x, y-24, mouse_x, mouse_y)
@@ -16,6 +18,7 @@ if (shoot){
 		alarm[0] = 40
 	}
 	if ((gun == 4) && (shotAmmo > 0)){
+		audio_play_sound(shotgun_shot,1,false)
 		temp1 = instance_create_layer(x, y-24,"Instances" ,obj_pistol_bullet)
 		temp2 = instance_create_layer(x, y-24,"Instances" ,obj_pistol_bullet)
 		temp3 = instance_create_layer(x, y-24,"Instances" ,obj_pistol_bullet)

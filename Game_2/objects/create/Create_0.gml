@@ -1,3 +1,5 @@
+globalvar sound;
+sound = true
 globalvar space;
 globalvar newroom;
 space = true

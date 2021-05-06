@@ -13,3 +13,4 @@ smgAmmo = 200
 shotAmmo = 15
 globalvar progress;
 progress = true
+*/

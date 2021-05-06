@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "ray_gun_triple.mp3",
-  "duration": 1.44499993,
+  "duration": 0.245,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
