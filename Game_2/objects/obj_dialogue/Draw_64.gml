@@ -148,13 +148,13 @@ if (stage == 25){
 
 if (stage == 26){
 	draw_text_color(700, 300, ("Jet: Forget that! We have the right to not cower in fear our whole lives!"
-	+ "\n How about we find the mastermind behind this envasion and take it out?"), c_white,c_white,c_white,c_white,1)
+	+ "\n How about we find the mastermind behind this invasion and take it out?"), c_white,c_white,c_white,c_white,1)
 }
 
 if (stage == 27){
 	draw_text_color(700, 300, ("Asteria: Hes right... We need to find an end to this."
 	+ "Zane, you've been keepinig track of intel right?"
-	+"\n What Do we know of the source?"), c_white,c_white,c_white,c_white,1)
+	+"\n What do we know of the source?"), c_white,c_white,c_white,c_white,1)
 }
 
 if (stage == 28){
@@ -196,11 +196,15 @@ if (stage == 34){
 31 - 32**/	
 
 if (stage == 36){
-	draw_text_color(700, 300, ("With the smmoke cleared. The Alpha alien lays flat"), c_white,c_white,c_white,c_white,1)
+	draw_text_color(700, 300, ("With the smoke cleared. The Alpha alien lays flat"), c_white,c_white,c_white,c_white,1)
 }
 
 if (stage == 37){
 	draw_text_color(700, 300, ("The world is saved..."
 	+"\n For now"), c_white,c_white,c_white,c_white,1)
+}
+if (stage == 38){
+	room_goto(Victory)
+	stage +=1
 }
 

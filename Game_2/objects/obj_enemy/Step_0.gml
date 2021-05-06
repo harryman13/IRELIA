@@ -17,7 +17,11 @@ if ((!walk) && (!move)){
 		walk = true
 }
 if ((walk) && (move)){
-	if (irandom_range(1,2) == 1){
+	if (place_meeting(x + 29 + hspeed, y, edge)){
+		image_xscale = -1
+	}else if (place_meeting(x-24+hspeed, y, edge)){
+		image_xscale = 1
+	}else if (irandom_range(1,2) == 1){
 			image_xscale = -1
 		}else{
 			image_xscale = 1

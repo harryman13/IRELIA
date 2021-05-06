@@ -5,7 +5,7 @@ globalvar newroom;
 space = true
 newroom = true
 globalvar game;
-game = 0
+game = true
 globalvar gun;
 gun = 1
 globalvar snipeAmmo;
@@ -16,3 +16,5 @@ smgAmmo = 200
 shotAmmo = 15
 globalvar progress;
 progress = true
+globalvar soundstop;
+soundstop = false

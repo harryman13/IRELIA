@@ -1,4 +1,4 @@
-show_debug_message("progress: " + string(progress))
+show_debug_message("stage: " + string(stage))
 if stage == 11 || stage == 24 || stage == 35{
 	if (update == 1){
 		if (sprite == 0){
@@ -55,8 +55,8 @@ if stage == 11 || stage == 24 || stage == 35{
 	}
 
 	if health <= 0{
-		game = 0
-		room_goto(GameOver)
+		game = false
+		room_goto(Victory)
 		instance_destroy()
 	}
 }
@@ -75,5 +75,8 @@ if(position_meeting(x+12, y+vspeed, obj_floor) || position_meeting(x-12, y+vspee
 	}
 }
 if(position_meeting(x+12+hspeed, y-2, obj_floor) || position_meeting(x-12+hspeed, y-2, obj_floor)){
+	hspeed = 0
+}
+if(position_meeting(x+12+hspeed, y-2, obj_wall) || position_meeting(x-12+hspeed, y-2, obj_wall)){
 	hspeed = 0
 }

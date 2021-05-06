@@ -19,7 +19,11 @@ if ((!walk) && (!move)){
 		walk = true
 }
 if ((walk) && (move)){
-	if (irandom_range(1,2) == 1){
+	if (place_meeting(x + 29 + hspeed, y, edge)){
+		image_xscale = -1
+	}else if (place_meeting(x-24+hspeed, y, edge)){
+		image_xscale = 1
+	}else if (irandom_range(1,2) == 1){
 			image_xscale = -1
 		}else{
 			image_xscale = 1
@@ -40,10 +44,15 @@ if abs(x - cam.x) < 500{
 }
 if enemy_health <= 0{
 	progress = true
+	if room = Level2{
 		instance_create_layer(1600, y - 750,"Instances", obj_enemy)
 		instance_create_layer(irandom_range(1550, 1950), y - 750,"Instances", obj_health)
 		instance_create_layer(1750, y - 750, "Instances", obj_SPenemy3)
 		instance_create_layer(1850, y - 750, "Instances", obj_enemy)
-
+	}
+	if room = Level3{
+		instance_create_layer(1850, y - 750,"Instances", obj_enemy)
+		instance_create_layer(irandom_range(2100, 2400), y - 750, "Instances", obj_SPenemy3)
+	}
 	instance_destroy()
 }

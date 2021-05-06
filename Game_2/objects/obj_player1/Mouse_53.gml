@@ -30,13 +30,13 @@ if (shoot){
 		temp4.speed = 6
 		temp5.speed = 6
 		temp1.direction = point_direction(x, y-24, mouse_x, mouse_y)
-		temp2.direction = point_direction(x, y-24, mouse_x, mouse_y) + irandom_range(2,7)
-		temp3.direction = point_direction(x, y-24, mouse_x, mouse_y) + irandom_range(5,15)
-		temp4.direction = point_direction(x, y-24, mouse_x, mouse_y) - irandom_range(2,7)
-		temp5.direction = point_direction(x, y-24, mouse_x, mouse_y) - irandom_range(5,15)
+		temp2.direction = point_direction(x, y-24, mouse_x, mouse_y) + irandom_range(3,8)
+		temp3.direction = point_direction(x, y-24, mouse_x, mouse_y) + irandom_range(7,17)
+		temp4.direction = point_direction(x, y-24, mouse_x, mouse_y) - irandom_range(3,8)
+		temp5.direction = point_direction(x, y-24, mouse_x, mouse_y) - irandom_range(7,17)
 		shoot = false
 		shotAmmo -= 1
-		alarm[0] = 40
+		alarm[0] = 60
 	}
 	
 }

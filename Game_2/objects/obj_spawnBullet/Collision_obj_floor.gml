@@ -1,0 +1,21 @@
+shot = instance_create_layer(x, y,"Instances" ,obj_enemyBullet)
+shot1 = instance_create_layer(x, y,"Instances" ,obj_enemyBullet)
+shot2 = instance_create_layer(x, y,"Instances" ,obj_enemyBullet)
+shot3 = instance_create_layer(x, y,"Instances" ,obj_enemyBullet)
+shot4 = instance_create_layer(x, y,"Instances" ,obj_enemyBullet)
+shot.speed = 7
+shot1.speed = 7
+shot2.speed = 7
+shot3.speed = 7
+shot4.speed = 7
+shot.gravity = .15
+shot1.gravity = .15
+shot2.gravity = .15
+shot3.gravity = .15
+shot4.gravity = .15
+shot.direction = irandom_range(80,85)
+shot1.direction = irandom_range(85,88)
+shot2.direction = irandom_range(88,92)
+shot3.direction = irandom_range(92,95)
+shot4.direction = irandom_range(95,100)
+instance_destroy()
