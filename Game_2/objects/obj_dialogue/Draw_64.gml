@@ -36,6 +36,7 @@ if (stage == 5) && (newroom){
 	//show_debug_message("5 = " + string(stage))
 	newroom = false
 	room_goto(Level1)
+	stage+=1
 	//draw_text_color(700, 300, ("Ransacked City: 2050"), c_black,c_black,c_black,c_black,1)
 }
 if (stage == 6){
@@ -97,6 +98,7 @@ if (stage == 16) && (newroom){
 	//show_debug_message("1 = " + string(stage))
 	newroom = false
 	room_goto(Level2)
+	stage+=1
 	}
 	
 /**Stage Two PreDialog
@@ -159,13 +161,14 @@ if (stage == 27){
 
 if (stage == 28){
 	draw_text_color(700, 300, ("Zane: We shot down an alien aircraft five miles south of here."
-	+"\n I can get it functional enough to get us to the mother ship"), c_white,c_white,c_white,c_white,1)
+	+"\n I can get it functional enough to get us into orbit to attack the mother ship"), c_white,c_white,c_white,c_white,1)
 }
 
 if (stage == 29 && newroom){
 	newroom = false
 	room_goto(Level3)
-	//
+	stage+=1
+	
 }
 /**Stage Three PreDialog
 26 - 30**/	

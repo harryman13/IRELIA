@@ -2,8 +2,8 @@ if stage == 11 || stage == 24 || stage == 35{
 if (sprite == 0) && (ability1){
 	room_speed = room_speed * .25
 	ability1 = false
-	alarm[1] = 1500
-	alarm[2] = 150
+	alarm[1] = 750
+	alarm[2] = 100
 }
 if ((sprite == 1) && (ability2)){
 	/*if distance_to_point(mouse_x, mouse_y) < 100{

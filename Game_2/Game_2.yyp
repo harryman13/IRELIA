@@ -48,6 +48,7 @@
     {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},"order":5,},
     {"id":{"name":"FirstRoom","path":"rooms/FirstRoom/FirstRoom.yy",},"order":4,},
     {"id":{"name":"obj_smg_bullet","path":"objects/obj_smg_bullet/obj_smg_bullet.yy",},"order":10,},
+    {"id":{"name":"Sprite23","path":"sprites/Sprite23/Sprite23.yy",},"order":22,},
     {"id":{"name":"obj_SPenemy4","path":"objects/obj_SPenemy4/obj_SPenemy4.yy",},"order":24,},
     {"id":{"name":"spr_aim","path":"sprites/spr_aim/spr_aim.yy",},"order":11,},
     {"id":{"name":"spr_playerTroyWalking","path":"sprites/spr_playerTroyWalking/spr_playerTroyWalking.yy",},"order":9,},
