@@ -22,7 +22,7 @@ if ((sprite == 1) && (ability2)){
 		x = x - 100
 	}
 	ability2 = false
-	alarm[3] = 250
+	alarm[3] = 200
 }
 if ((sprite == 2) && (ability3)){
 	shield = 50

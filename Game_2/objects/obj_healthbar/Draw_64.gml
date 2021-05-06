@@ -39,4 +39,7 @@ if object_exists(obj_player1){
 			draw_text_color(300,30,"Ability Not Ready: " + string(obj_player1.alarm[4]), c_red,c_red,c_red,c_red,1)
 		}
 	}
+	if obj_player1.sprite == 3{
+			draw_text_color(300,30,"New Weapon: Shotgun ", c_white,c_white,c_white,c_white,1)
+	}
 }

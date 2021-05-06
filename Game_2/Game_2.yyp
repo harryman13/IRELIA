@@ -29,6 +29,7 @@
     {"id":{"name":"obj_SPenemy3","path":"objects/obj_SPenemy3/obj_SPenemy3.yy",},"order":21,},
     {"id":{"name":"spr_playerJetWalking","path":"sprites/spr_playerJetWalking/spr_playerJetWalking.yy",},"order":6,},
     {"id":{"name":"obj_SPenemy1","path":"objects/obj_SPenemy1/obj_SPenemy1.yy",},"order":18,},
+    {"id":{"name":"Instructions","path":"objects/Instructions/Instructions.yy",},"order":35,},
     {"id":{"name":"spr_enemyShield","path":"sprites/spr_enemyShield/spr_enemyShield.yy",},"order":14,},
     {"id":{"name":"newRoomStage3","path":"objects/newRoomStage3/newRoomStage3.yy",},"order":33,},
     {"id":{"name":"obj_music","path":"objects/obj_music/obj_music.yy",},"order":34,},
