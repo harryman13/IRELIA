@@ -6,23 +6,33 @@ if (sprite == 0) && (ability1){
 	alarm[2] = 100
 }
 if ((sprite == 1) && (ability2)){
-	/*if distance_to_point(mouse_x, mouse_y) < 100{
-		x = mouse_x
-		y = mouse_y
-	}else{
-		ang = arctan2(mouse_y,mouse_x)
-		x = x + dcos(ang) * 100
-		y = y + dsin(ang) * 100
+	if image_xscale > 0{
+		if (!instance_place(x+100, y-1, obj_floor)){
+			if (!instance_place(x+100, y, obj_wall)) && (!instance_place(x+100, y, obj_rearwall)){
+				x = x + 100
+				ability2 = false
+				alarm[3] = 200
+			}else{
+				x = (((x div 500) + 1) * 500) - (abs(sprite_width / 2))
+				ability2 = false
+				alarm[3] = 200
+			}
+		}
 	}
-	*/
-	if hspeed > 0{
-		x = x + 100
+	if image_xscale < 0{
+		if (!instance_place(x-100, y-1, obj_floor)){
+			if (!instance_place(x-100, y, obj_wall)) && (!instance_place(x-100, y, obj_rearwall)){
+				x = x - 100
+				ability2 = false
+				alarm[3] = 200
+			}else{
+				x = (((x div 500)) * 500) + (abs(sprite_width / 2))
+				ability2 = false
+				alarm[3] = 200
+			}
+		}
 	}
-	if hspeed < 0{
-		x = x - 100
-	}
-	ability2 = false
-	alarm[3] = 200
+	
 }
 if ((sprite == 2) && (ability3)){
 	shield = 50

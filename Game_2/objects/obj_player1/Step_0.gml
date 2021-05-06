@@ -1,7 +1,7 @@
 //show_debug_message("stage: " + string(stage))
-show_debug_message("sprite: " + string(sprite_index))
-show_debug_message("update: " + string(update))
-show_debug_message("release: " + string(release))
+//show_debug_message("sprite: " + string(sprite_index))
+//show_debug_message("update: " + string(update))
+//show_debug_message("release: " + string(release))
 if (update == 1){
 	if (sprite == 0){
 		show_debug_message("running")
@@ -118,5 +118,8 @@ if(position_meeting(x+12+hspeed, y-2, obj_floor) || position_meeting(x-12+hspeed
 	hspeed = 0
 }
 if(position_meeting(x+12+hspeed, y-2, obj_wall) || position_meeting(x-12+hspeed, y-2, obj_wall)){
+	hspeed = 0
+}
+if(position_meeting(x+12+hspeed, y-2, obj_rearwall) || position_meeting(x-12+hspeed, y-2, obj_rearwall)){
 	hspeed = 0
 }

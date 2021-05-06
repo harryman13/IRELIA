@@ -19,6 +19,7 @@
     {"id":{"name":"spr_Player1_Run","path":"sprites/spr_Player1_Run/spr_Player1_Run.yy",},"order":1,},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":3,},
     {"id":{"name":"spr_playerTroyWalkingShielded","path":"sprites/spr_playerTroyWalkingShielded/spr_playerTroyWalkingShielded.yy",},"order":28,},
+    {"id":{"name":"obj_rearwall","path":"objects/obj_rearwall/obj_rearwall.yy",},"order":36,},
     {"id":{"name":"BGR_Level2","path":"sprites/BGR_Level2/BGR_Level2.yy",},"order":13,},
     {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},"order":19,},
     {"id":{"name":"obj_SPenemy5","path":"objects/obj_SPenemy5/obj_SPenemy5.yy",},"order":25,},
