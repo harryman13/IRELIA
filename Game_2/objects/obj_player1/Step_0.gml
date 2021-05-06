@@ -39,28 +39,43 @@ if stage == 11 || stage == 24 || stage == 35{
 		//sprite_index = spr_Player1_Idle
 		hspeed = 0
 	}
-	if keyboard_check(ord("D")){
+	if (keyboard_check(ord("D"))) && !(position_meeting(x+12+hspeed, y-2, obj_floor)){
 		//sprite_index = spr_Player1_Run
 		image_xscale = 1
 		hspeed = 3
-	}else if keyboard_check(ord("A")){
+	}else if keyboard_check(ord("A")) && !(position_meeting(x-12+hspeed, y-2, obj_floor)){
 		//sprite_index = spr_Player1_Run
 		image_xscale = -1
 		hspeed = -3
 	}
 	if keyboard_check_pressed(ord("W")){
-		if(instance_place(x, y+1, obj_floor)){	
-		vspeed = -jump
+		if(position_meeting(x+12, y, obj_floor) || position_meeting(x-12, y, obj_floor)){
+			vspeed = -jump
 		}
 	}
-	if(instance_place(x, y+1, obj_floor)){	
-		gravity = 0
-	}else{
+	if!(position_meeting(x+12, y+vspeed, obj_floor) || position_meeting(x-12, y+vspeed, obj_floor)){
 		gravity = .25
 	}
+	
+if(position_meeting(x+12, y+vspeed, obj_floor) || position_meeting(x-12, y+vspeed, obj_floor)){
+	if!(position_meeting(x+12, y-2, obj_floor) || position_meeting(x-12, y-2, obj_floor)){
+		vspeed = 0
+		gravity = 0
+	}
+}
+if(position_meeting(x+12+hspeed, y-2, obj_floor) || position_meeting(x-12+hspeed, y-2, obj_floor)){
+	hspeed = 0
+	/*
+	if position_meeting(x+12, y-2, obj_floor){
+		x-=1
+	}else{
+		x+=1
+	}*/
+}
+
 	if health <= 0{
 		game = 0
-		room_goto(Room2)
+		room_goto(GameOver)
 		instance_destroy()
 	}
 }

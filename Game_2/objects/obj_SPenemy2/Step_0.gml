@@ -41,6 +41,7 @@ if abs(x - cam.x) < 500{
 if enemy_health <= 0{
 	progress = true
 		instance_create_layer(1600, y - 750,"Instances", obj_enemy)
+		instance_create_layer(irandom_range(1550, 1950), y - 750,"Instances", obj_health)
 		instance_create_layer(1750, y - 750, "Instances", obj_SPenemy3)
 		instance_create_layer(1850, y - 750, "Instances", obj_enemy)
 

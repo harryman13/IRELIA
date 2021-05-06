@@ -3,6 +3,7 @@ if enemy_health <= 0{
 }
 if(instance_place(x, y+1, obj_floor)){	
 	gravity = 0
+	vspeed = 0
 }else{
 	gravity = .25
 }

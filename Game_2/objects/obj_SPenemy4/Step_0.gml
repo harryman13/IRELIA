@@ -40,7 +40,8 @@ if abs(x - cam.x) < 500{
 }
 if enemy_health <= 0{
 	progress = true
-	instance_create_layer(3250, y - 750, "Instances", obj_SPenemy4)
-	instance_create_layer(1600, y - 750, "Instances", obj_ammo)
+	instance_create_layer(3200, y-750, "Instances", obj_SPenemy5)
+	instance_create_layer(3100, y-750, "Instances", obj_enemy)
+	instance_create_layer(3400, y-750, "Instances", obj_enemy)
 	instance_destroy()
 }
