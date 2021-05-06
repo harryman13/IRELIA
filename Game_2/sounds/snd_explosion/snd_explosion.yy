@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.1,
+  "volume": 0.14,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "pistol_shot.mp3",
-  "duration": 0.475204,
+  "soundFile": "snd_explosion.wav",
+  "duration": 0.852868,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "pistol_shot",
+  "name": "snd_explosion",
   "tags": [],
   "resourceType": "GMSound",
 }

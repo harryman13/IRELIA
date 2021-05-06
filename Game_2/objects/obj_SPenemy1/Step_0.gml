@@ -50,5 +50,6 @@ if enemy_health <= 0{
 	if room = Level3{
 		instance_create_layer(1900, y, "Instances", obj_SPenemy2)
 	}
+	instance_create_layer(x, y, "Instances", obj_explosion)
 	instance_destroy()
 }

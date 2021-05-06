@@ -54,5 +54,6 @@ if enemy_health <= 0{
 		instance_create_layer(1850, y - 750,"Instances", obj_enemy)
 		instance_create_layer(irandom_range(2100, 2400), y - 750, "Instances", obj_SPenemy3)
 	}
+	instance_create_layer(x, y, "Instances", obj_explosion)
 	instance_destroy()
 }

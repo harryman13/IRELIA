@@ -1,10 +1,12 @@
 if stage != 100{
 	i = irandom_range(1,12)
 	if i < 5{
+		audio_play_sound(enemy_shot, 1, false)
 		shot = instance_create_layer(x, y,"Instances" ,obj_enemyBullet)
 		shot.speed = 7
 		shot.direction = point_direction(x, y, obj_player1.x, obj_player1.y) + irandom_range(-4,4)
 	}else if i < 7{
+		audio_play_sound(enemy_shot, 1, false)
 		shot = instance_create_layer(x, y,"Instances" ,obj_bounceBullet)
 		shot1 = instance_create_layer(x, y,"Instances" ,obj_bounceBullet)
 		shot2 = instance_create_layer(x, y,"Instances" ,obj_bounceBullet)
@@ -22,12 +24,14 @@ if stage != 100{
 		shot4.direction = point_direction(x, y, obj_player1.x, 520) - irandom_range(10,20)
 
 	}else if i < 9{
+		audio_play_sound(enemy_shot, 1, false)
 		shot = instance_create_layer(x, y,"Instances" ,obj_spawnBullet)
 		shot.speed = 7
 		shot.direction = point_direction(x, y, obj_player1.x, 520) + irandom_range(-6,-2)
 	}else if i == 10{
 		instance_create_layer(irandom_range(3050, 3450), -100, "Instances", obj_enemy)
 	}else if i < 12{
+		audio_play_sound(enemy_shot, 1, false)
 		shot1 = instance_create_layer(irandom_range(3050, 3450), 0,"Instances" ,obj_enemyBullet)
 		shot2 = instance_create_layer(irandom_range(3050, 3450), 0,"Instances" ,obj_enemyBullet)
 		shot3 = instance_create_layer(irandom_range(3050, 3450), 0,"Instances" ,obj_enemyBullet)

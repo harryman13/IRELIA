@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.1,
+  "volume": 0.24,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "pistol_shot.mp3",
-  "duration": 0.475204,
+  "soundFile": "enemy_shot.wav",
+  "duration": 1.654501,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "pistol_shot",
+  "name": "enemy_shot",
   "tags": [],
   "resourceType": "GMSound",
 }

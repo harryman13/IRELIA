@@ -12,9 +12,11 @@ Tab to refresh health and ammo, Enter to skip to the last level.
 # Sources
 Portal from [rrcaseyr](https://opengameart.org/users/rrcaseyr) on opengameart.org
 
-Most Levels and Enemies from [ansimuz](https://ansimuz.itch.io/sideview-sci-fi) on their itch.io page.
+Levels and Enemies from [ansimuz](https://ansimuz.itch.io/sideview-sci-fi) on their itch.io page.
 
-Sounds from 
+Enemy shooting sound from [dklon](https://opengameart.org/users/dklon) on opengameart.org
+
+Other sounds from zapsplat.com
 
 # Names
 Harrison Lee

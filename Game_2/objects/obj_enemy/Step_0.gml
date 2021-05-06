@@ -1,4 +1,5 @@
 if enemy_health <= 0{
+	instance_create_layer(x, y, "Instances", obj_explosion)
 	instance_destroy()
 }
 if(instance_place(x, y+1, obj_floor)){	
