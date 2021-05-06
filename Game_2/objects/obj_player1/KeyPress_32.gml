@@ -26,6 +26,7 @@ if ((sprite == 1) && (ability2)){
 }
 if ((sprite == 2) && (ability3)){
 	shield = 50
+	update = 1
 	ability3 = false
 	alarm[4] = 2000
 	
