@@ -7,7 +7,7 @@ if (stage == 0){
 
 if (stage == 1){
 	//show_debug_message("1 = " + string(stage))
-	draw_text_color(700, 300, ("Project I.R.E.L.I.A, the international defense agency created by "
+	draw_text_color(700, 300, ("I.R.E.L.I.A, the international defense agency created by "
 	+"\nthe United Nations Security Council, has decided to deploy four " 
 	+"\nspecial troops to combat the threat head-on."), c_white,c_white,c_white,c_white,1)
 }
@@ -15,17 +15,17 @@ if (stage == 1){
 if (stage == 2){
 	//show_debug_message("2 = " + string(stage))
 	draw_text_color(700, 300, ("The team has faced countless threats before, and dealt with them according"
-	+"\nto the knowledge and skill they have gainied over their years of combat"), c_white,c_white,c_white,c_white,1)
+	+"\nto the knowledge and skill they have gained over their years of combat"), c_white,c_white,c_white,c_white,1)
 }
 
 if (stage == 3){
 	//show_debug_message("3 = " + string(stage))
-	draw_text_color(700, 300, ("But this time was different. The threat was greater"), c_white,c_white,c_white,c_white,1)
+	draw_text_color(700, 300, ("But this time was different. The threat was greater..."), c_white,c_white,c_white,c_white,1)
 }
 	
 if (stage == 4){
 	//show_debug_message("4 = " + string(stage))
-	draw_text_color(700, 300, ("These are their stories, Welcome to Irelia"), c_white,c_white,c_white,c_white,1)
+	draw_text_color(700, 300, ("These are their stories, Welcome to IRELIA"), c_white,c_white,c_white,c_white,1)
 }
 
 /**
@@ -72,26 +72,26 @@ if (stage == 10){
 if (stage == 12){
 	//show_debug_message("12 = " + string(stage))
 	draw_text_color(700, 300, ("Jet: Looks like we're alive after all huh?"
-	+ "\nAsteria: For Now"), c_black,c_black,c_black,c_black,1)
+	+ "\nAsteria: For Now."), c_black,c_black,c_black,c_black,1)
 	newroom = true
 }
 
 if (stage == 13){
 	//show_debug_message("13 = " + string(stage))
 	draw_text_color(700, 300, ("Troy: Guess you didnt get us killed after all slowpoke"
-	+ "\nJet: Shut up. You know im the most reliable"), c_black,c_black,c_black,c_black,1)
+	+ "\nJet: Shut up. You know im the most reliable."), c_black,c_black,c_black,c_black,1)
 }
 
 if (stage == 14){
 	//show_debug_message("14 = " + string(stage))
 	draw_text_color(700, 300, ("Asteria: Most reliable to keep your mouth running."
 	+ "\nIf you're done yappering lets get back to the landing zone"
-	+"\nThe Chopper is on its way"), c_black,c_black,c_black,c_black,1)
+	+"\nThe Chopper is on its way."), c_black,c_black,c_black,c_black,1)
 }
 
 if (stage == 15){
 	//show_debug_message("15 = " + string(stage))
-	draw_text_color(700, 300, ("Zane: About time. Ive got shows to binge tonight"), c_black,c_black,c_black,c_black,1)
+	draw_text_color(700, 300, ("Zane: About time. Ive got shows to binge tonight."), c_black,c_black,c_black,c_black,1)
 }
 
 if (stage == 16) && (newroom){
@@ -111,28 +111,28 @@ if (stage == 17){
 
 if (stage == 18){
 	draw_text_color(700, 300,("After a few days of quiet following the destruction of the previous city. "
-	+ "\nThe survivors have taken refuge in a city district 150 miles away from their destoyed homes"), c_white,c_white,c_white,c_white,1)
+	+ "\nThe survivors have taken refuge in a old bunker 150 miles away from their destoyed homes."), c_white,c_white,c_white,c_white,1)
 }
 
 if (stage == 19){
 	draw_text_color(700, 300,("With access to food, water, and shelter, all seems well."
-	+"\n The four heroes discuss amoung themselves"), c_white,c_white,c_white,c_white,1)
+	+"\n The four heroes discuss among themselves."), c_white,c_white,c_white,c_white,1)
 }
 
 if (stage == 20){
-	draw_text_color(700, 300,("Asteria: This is the best site we've seen huh? \nThey're all safe and satisifed"), c_white,c_white,c_white,c_white,1)
+	draw_text_color(700, 300,("Asteria: This is the best site we've seen huh? \nThey're all safe and satisifed."), c_white,c_white,c_white,c_white,1)
 }
 
 if (stage == 21){
-	draw_text_color(700, 300,("Zane: The aliens aren't gone or dead Asteria"
+	draw_text_color(700, 300,("Zane: The aliens aren't gone or dead Asteria."
 	+"\n That means we still have tons of work to do. "
-	+"\n We can't rest yet"), c_white,c_white,c_white,c_white,1)
+	+"\n We can't rest yet."), c_white,c_white,c_white,c_white,1)
 }
 
 if (stage == 22){
 	draw_text_color(700, 300,("Just as they finish. Aliens come crashing down from the sky. Running at them"
 	+"\n with blood in their eyes."
-	+"\n Time to get ready"), c_white,c_white,c_white,c_white,1)
+	+"\n Time to get ready."), c_white,c_white,c_white,c_white,1)
 }
 if (stage == 23){
 	space = false
@@ -145,7 +145,7 @@ if (stage == 23){
 
 if (stage == 25){
 	draw_text_color(700, 300, ("Troy: That was way too close for comfort."
-	+ " We got too complacent thinking we were safe"), c_white,c_white,c_white,c_white,1)
+	+ " We got complacent thinking we were safe."), c_white,c_white,c_white,c_white,1)
 }
 
 if (stage == 26){
@@ -161,7 +161,7 @@ if (stage == 27){
 
 if (stage == 28){
 	draw_text_color(700, 300, ("Zane: We shot down an alien aircraft five miles south of here."
-	+"\n I can get it functional enough to get us into orbit to attack the mother ship"), c_white,c_white,c_white,c_white,1)
+	+"\n I can get it functional enough to get us into orbit to attack the mother ship."), c_white,c_white,c_white,c_white,1)
 }
 
 if (stage == 29 && newroom){
