@@ -2,7 +2,8 @@ draw_set_halign(fa_center);
 if (stage == 0){
 	//show_debug_message("0 = " + string(stage))
 	draw_text_color(700, 300, ("It is the year 2050, the world is facing the threat" 
-	+ "\nof an alien invasion from neighboring galaxy andromeda"), c_white,c_white,c_white,c_white,1)
+	+ "\nof an alien invasion from neighboring galaxy andromeda"
+	+ "\n Space to continue."), c_white,c_white,c_white,c_white,1)
 }
 
 if (stage == 1){
@@ -41,7 +42,8 @@ if (stage == 5) && (newroom){
 }
 if (stage == 6){
 	//show_debug_message("6 = " + string(stage))
-	draw_text_color(700, 300, ("Ransacked City: 2050"), c_black,c_black,c_black,c_black,1)
+	draw_text_color(700, 300, ("Ransacked City: 2050"
+	+ "\n Space to continue."), c_black,c_black,c_black,c_black,1)
 }
 if (stage == 7){
 	//show_debug_message("7 = " + string(stage))
@@ -106,7 +108,8 @@ if (stage == 16) && (newroom){
 
 if (stage == 17){
 	newroom = true
-	draw_text_color(700, 300,("Metropolitan City District: 2050"), c_white,c_white,c_white,c_white,1)
+	draw_text_color(700, 300,("Metropolitan City District: 2050"
+	+ "\n Space to continue."), c_white,c_white,c_white,c_white,1)
 }
 
 if (stage == 18){
@@ -174,7 +177,8 @@ if (stage == 29 && newroom){
 26 - 30**/	
 
 if (stage == 30){
-	draw_text_color(700, 300, ("Alien Spaceship: 2050"), c_white,c_white,c_white,c_white,1)
+	draw_text_color(700, 300, ("Alien Spaceship: 2050"
+	+ "\n Space to continue."), c_white,c_white,c_white,c_white,1)
 }
 
 if (stage == 31){

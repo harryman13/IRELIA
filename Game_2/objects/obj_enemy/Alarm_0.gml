@@ -1,4 +1,4 @@
-if ((x - cam.x) < 500 && (x - cam.x) > 0) && ((x - obj_player1.x) > -500){
+if ((x - cam.x) < 500 && (x - cam.x) > 0) && ((x - obj_player1.x) < 480){
 	audio_play_sound(enemy_shot, 1, false)
 	shot = instance_create_layer(x, y,"Instances" ,obj_enemyBullet)
 	shot.speed = 5
