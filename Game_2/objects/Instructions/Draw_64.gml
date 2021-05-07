@@ -2,7 +2,8 @@ draw_set_halign(fa_center);
 if cam.camroom == 1 && stage == 11{
 	draw_text_color(700,150,"Instructions: W, A, S, D to move, click to shoot"
 	+"\n Q and E to cycle between characters, 1-4 or Scroll to swap weapons"
-	+"\n Spacebar to use each characters special ability.", c_black, c_black, c_black, c_black,1)
+	+"\n Spacebar to use each characters special ability."
+	+"\n If you get stuck, press R to reset.", c_black, c_black, c_black, c_black,1)
 }
 if cam.camroom == 2 && stage == 11{
 	draw_text_color(700,150,"Enemies will walk around and shoot, some will"
@@ -10,5 +11,5 @@ if cam.camroom == 2 && stage == 11{
 	+"\n health and ammo.", c_black, c_black, c_black, c_black,1)
 }
 if cam.camroom == 3 && stage == 11{
-	draw_text_color(700,150,"Have fun and shoot those aliens!", c_black, c_black, c_black, c_black,1)
+	draw_text_color(700,150,"Have fun and shoot those aliens!" + "", c_black, c_black, c_black, c_black,1)
 }

@@ -2,6 +2,20 @@
 //show_debug_message("sprite: " + string(sprite_index))
 //show_debug_message("update: " + string(update))
 //show_debug_message("release: " + string(release))
+if y > 600{
+	if room == Level1{
+		stage = 11
+		room_restart()
+	}
+	if room == Level2{
+		stage = 24
+		room_restart()
+	}
+	if room == Level3{
+		stage = 35
+		room_restart()
+	}
+}
 if (update == 1){
 	if (sprite == 0){
 		show_debug_message("running")
