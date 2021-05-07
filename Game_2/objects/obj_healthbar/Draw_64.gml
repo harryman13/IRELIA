@@ -1,18 +1,18 @@
 if object_exists(obj_player1){
-	draw_rectangle_color(200,55,300,85,c_black,c_black,c_black,c_black,false)
+	draw_rectangle_color(150,55,350,85,c_black,c_black,c_black,c_black,false)
 	draw_set_halign(fa_center)
 	
 	if obj_player1.sprite == 0{
-		draw_text_color(250,60,"Asteria", c_white,c_white,c_white,c_white,1)
+		draw_text_color(250,60,"Asteria - Slow Time", c_white,c_white,c_white,c_white,1)
 		
 	}else if obj_player1.sprite == 1{
-		draw_text_color(250,60,"Jet", c_white,c_white,c_white,c_white,1)
+		draw_text_color(250,60,"Jet - Blink", c_white,c_white,c_white,c_white,1)
 		
 	}else if obj_player1.sprite == 2{
-		draw_text_color(250,60,"Troy", c_white,c_white,c_white,c_white,1)
+		draw_text_color(250,60,"Troy - Shield", c_white,c_white,c_white,c_white,1)
 		
 	}else if obj_player1.sprite == 3{
-		draw_text_color(250,60,"Zane", c_white,c_white,c_white,c_white,1)
+		draw_text_color(250,60,"Zane - Shotgun", c_white,c_white,c_white,c_white,1)
 		
 	}
 	draw_set_halign(fa_left);
