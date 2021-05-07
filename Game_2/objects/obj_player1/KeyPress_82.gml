@@ -5,7 +5,7 @@ if room == Level1 && stage == 11{
 	snipeAmmo = tempsniperAmmo
 	smgAmmo = tempsmgammo
 	shotAmmo = tempshotammo
-	gun = 0
+	gun = 1
 	room_restart()
 }
 if room == Level2 && stage == 24{
@@ -15,7 +15,7 @@ if room == Level2 && stage == 24{
 	snipeAmmo = tempsniperAmmo
 	smgAmmo = tempsmgammo
 	shotAmmo = tempshotammo
-	gun = 0
+	gun = 1
 	room_restart()
 }
 if room == Level3 && stage == 35{
@@ -25,6 +25,6 @@ if room == Level3 && stage == 35{
 	snipeAmmo = tempsniperAmmo
 	smgAmmo = tempsmgammo
 	shotAmmo = tempshotammo
-	gun = 0
+	gun = 1
 	room_restart()
 }
