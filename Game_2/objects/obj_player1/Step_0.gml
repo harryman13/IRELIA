@@ -102,7 +102,7 @@ if stage == 11 || stage == 24 || stage == 35{
 			update = 1
 		}
 	}
-	if keyboard_check_pressed(ord("W")){
+	if keyboard_check(ord("W")){
 		if(position_meeting(x+12, y, obj_floor) || position_meeting(x-12, y, obj_floor)){
 			vspeed = -jump
 		}

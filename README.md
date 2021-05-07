@@ -14,7 +14,7 @@ Portal from [rrcaseyr](https://opengameart.org/users/rrcaseyr) on opengameart.or
 
 Levels and Enemies from [ansimuz](https://ansimuz.itch.io/sideview-sci-fi) on their itch.io page.
 
-Enemy shooting sound from [dklon](https://opengameart.org/users/dklon) on opengameart.org
+Enemy shooting and explosion sound from [dklon](https://opengameart.org/users/dklon) on opengameart.org
 
 Other sounds from zapsplat.com
 

@@ -7,7 +7,10 @@ shoot = true
 ability1 = true
 ability2 = true
 ability3 = true
-fin = false
 release = true
+tempsniperAmmo = snipeAmmo
+tempshotammo = shotAmmo
+tempsmgammo = smgAmmo
+
 window_set_cursor(cr_none)
 cursor_sprite = spr_aim

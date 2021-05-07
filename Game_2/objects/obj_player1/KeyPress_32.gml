@@ -1,6 +1,6 @@
 if stage == 11 || stage == 24 || stage == 35{
 if (sprite == 0) && (ability1){
-	room_speed = room_speed * .25
+	room_speed = room_speed / 4
 	ability1 = false
 	alarm[1] = 750
 	alarm[2] = 100
